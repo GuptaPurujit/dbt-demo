@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: demo 
+    schema: dbt_demo
+    tables:
+      - name: f_account_sales_npa
+      - name: d_product_xref
+      - name: d_product_master
+      - name: m_lookup_normalization
+      - name: d_product_hierarchy
