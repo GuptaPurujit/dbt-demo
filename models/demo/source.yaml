@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: demo 
-    schema: dbt_demo
+    schema: dbt_demo_db
     tables:
       - name: f_account_sales_npa
       - name: d_product_xref
